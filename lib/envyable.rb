@@ -1,7 +1,6 @@
 require 'yaml'
 require 'envyable/loader'
 require 'envyable/version'
-require 'envyable/railtie' if defined?(Rails)
 
 # Public: A simple yaml to ENV loader.
 module Envyable
